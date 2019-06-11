@@ -5,6 +5,9 @@
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Delete annoying popup for nonio registration - Privacy issues
 // @version      0.0.2
+// @supportURL   https://github.com/dippas/DeleteNonio/issues
+// @updateURL    https://raw.githuabusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js
+// @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js
 // @match        https://*.xl.pt/*
 // @match        https://*.publico.pt/*
 // @match        https://*.sapo.pt/*
