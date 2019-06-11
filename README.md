@@ -4,6 +4,11 @@ Delete Nonio Popup asking for register/login
 
 ## Installation
 
+If you don't have any userscript extension tool installed yet, here is a list where you can download and install it to your favourite browser
+- [ViolentMonkey](https://violentmonkey.github.io/get-it/)
+- [TamperMonkey](https://www.tampermonkey.net/)
+- [GreaseMonkey - only Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) 
+
 Click one of the following links to install it via your favourite userscript tool:
 
 
