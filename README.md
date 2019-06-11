@@ -10,7 +10,7 @@ Click one of the following links to install it via your favourite userscript too
 - [Minified](https://raw.githubusercontent.com/DeleteNonio/js/deletenonio.min.js)
 - [Original](https://raw.githubusercontent.com/DeleteNonio/js/deletenonio.js)
 
-# What does it do?
+## What does it do?
 
 It removes the HTML popup and set it back the scrollbar in the site, so users can browse the site in question without the annoying popup always asking to register/login
 
