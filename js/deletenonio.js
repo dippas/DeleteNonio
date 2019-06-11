@@ -24,7 +24,7 @@
 // @match        https://*.iol.pt/*
 // @match        https://*.flash.pt/*
 // @match        https://*.vidas.pt/*
-// @grant        none
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
 
