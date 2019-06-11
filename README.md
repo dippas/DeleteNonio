@@ -7,8 +7,8 @@ Delete Nonio Popup asking for register/login
 Click one of the following links to install it via your favourite userscript tool:
 
 
-- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.js)
-- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.js)
+- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js)
+- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.user.js)
 
 ## What does it do?
 
