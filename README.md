@@ -21,13 +21,13 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 
 ## Sites where it works
 
+- <https://aquelamaquina.pt/>
 - <https://xl.pt/>
 - <https://publico.pt/>
 - <https://sapo.pt/>
 - <https://blitz.pt/>
 - <https://visao.pt/>
 - <https://expressoemprego.pt/>
-- <https://exameinformatica.pt/>
 - <https://cmjornal.pt/>
 - <https://record.pt/>
 - <https://jornaldenegocios.pt/>
