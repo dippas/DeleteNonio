@@ -46,10 +46,6 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Give some LOVE
-
-[![Give me some love](https://cdn2.iconfinder.com/data/icons/basicset/heart_64.png)](https://www.paypal.me/fserpa)
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
