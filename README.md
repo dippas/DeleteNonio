@@ -5,17 +5,17 @@ Delete Nonio Popup asking for register/login
 ## Installation
 
 If you don't have any userscript extension tool installed yet, here is a list where you can download and install it to your favourite browser
+
 - [ViolentMonkey](https://violentmonkey.github.io/get-it/)
 - [TamperMonkey](https://www.tampermonkey.net/)
-- [GreaseMonkey - only Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) 
+- [GreaseMonkey - only Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 
 Click one of the following links to install it via your favourite userscript tool:
-
 
 - [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js)
 - [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.user.js)
 
-## What does it do?
+## What does it do
 
 It removes the HTML popup and set it back the scrollbar in the site, so users can browse the site in question without the annoying popup always asking to register/login
 
@@ -40,9 +40,10 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://iol.pt/>
 - <https://flash.pt/>
 - <https://vidas.pt/>
-
+- <https://maxima.pt/>
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Give some LOVE
@@ -50,4 +51,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [![Give me some love](https://cdn2.iconfinder.com/data/icons/basicset/heart_64.png)](https://www.paypal.me/fserpa)
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
