@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Delete annoying popup for nonio registration - Privacy issues
-// @version      0.1.4
+// @version      0.1.5
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -27,6 +27,7 @@
 // @match        https://*.vidas.pt/*
 // @match        https://*.maxima.pt/*
 // @match        https://*.cm-tv.pt/*
+// @match        https://*.ojogo.pt/*
 // @grant        none
 // ==/UserScript==
 
