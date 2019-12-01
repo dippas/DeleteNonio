@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Delete annoying popup for nonio registration - Privacy issues
-// @version      0.1.5
+// @version      0.1.6
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -31,14 +31,14 @@
 // @grant        none
 // ==/UserScript==
 
-
-
 const deleteNonio = {
 	el: {
 		html: document.documentElement,
 		body: document.body
 	},
+
 	events() {
+
 		this.el.html.style = 'overflow: auto !important';
 		this.el.body.style = 'overflow: auto !important';
 		document.querySelectorAll('#imp-content-gate-root')[0] ? document.querySelectorAll('#imp-content-gate-root')[0].outerHTML = '' : '';
@@ -48,11 +48,18 @@ const deleteNonio = {
 		document.querySelectorAll('.tp-modal')[0] ? document.querySelectorAll('.tp-modal')[0].outerHTML = '' : '';
 		document.querySelectorAll('.tp-backdrop')[0] ? document.querySelectorAll('.tp-backdrop')[0].outerHTML = '' : '';
 		document.querySelectorAll('.tp-iframe-wrapper')[0] ? document.querySelectorAll('.tp-iframe-wrapper')[0].outerHTML = '' : '';
+		if (document.querySelectorAll('#wrapperContentGatingNonio')[0]) {
+			document.cookie.split(';').forEach(el => {
+				document.cookie = el.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`)
+			})
+			//needs refresh afterwards
+		}
+
 	},
 	init() {
 		window.onload = () => {
 			setTimeout(() => this.events(), 100);
 		}
 	}
-};
+}
 deleteNonio.init();

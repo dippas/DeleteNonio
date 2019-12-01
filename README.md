@@ -42,6 +42,10 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://vidas.pt/>
 - <https://maxima.pt/>
 
+## Notes
+
+Due to recent changes in some sites like [oJogo.pt](https://ojogo.pt/) you will need a page refresh when finding the NONIO Popup
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
