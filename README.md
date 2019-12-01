@@ -28,6 +28,7 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://blitz.pt/>
 - <https://visao.pt/>
 - <https://expressoemprego.pt/>
+- <https://www.cm-tv.pt/>
 - <https://cmjornal.pt/>
 - <https://record.pt/>
 - <https://jornaldenegocios.pt/>
