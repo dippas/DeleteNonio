@@ -1,25 +1,33 @@
 # DeleteNonio
 
-Delete/Remove Nonio Popup asking for register/login
+(PT) Remover Popup Nonio que pede dados pessoais
 
-## Installation
+(EN) Delete Nonio Popup asking for register/login
 
-If you don't have any userscript extension tool installed yet, here is a list where you can download and install it to your favourite browser
+## Instalar / Installation
+
+(PT) Em caso de não ter instalado nenhuma extensão de userscript, aqui fica uma lista para fazer download
+
+(EN) If you don't have any userscript extension tool installed yet, here is a list where you can download and install it to your favourite browser
 
 - [ViolentMonkey](https://violentmonkey.github.io/get-it/)
 - [TamperMonkey](https://www.tampermonkey.net/)
 - [GreaseMonkey - only Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 
-Click one of the following links to install it via your favourite userscript tool:
+(PT) Carregar num dos links abaixo para instalação via extensão de userscript
+
+(EN) Click one of the following links to install it via your favourite userscript tool:
 
 - [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js)
 - [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.user.js)
 
-## What does it do
+## O que faz / What does it do
 
-It removes the HTML popup and set it back the scrollbar in the site, so users can browse the site in question without the annoying popup always asking to register/login
+(PT) Remove o Nonio Popup e repoe a barra de scroll lateral, para que os utilizadores possam visualizar o site em questão sem o Nonio popup a bloquear o site
 
-## Sites where it works
+(EN) It removes the Nonio popup and set it back the scrollbar in the site, so users can browse the site in question without the Nonio popup blocking the browsing
+
+## Sites onde funciona / Sites where it works
 
 - <https://aquelamaquina.pt/>
 - <https://xl.pt/>
@@ -50,19 +58,29 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 
-## Notes
+## Notas / Notes
+
+(PT)
+
+- Devido a alterações recentes em sites como o [oJogo](https://ojogo.pt/), será necessário actualizar a página quando aparecer o Nonio popup
+- Em alguns sites como a [sic](https://sic.pt) e seus parceiros, o remover do Nonio popup demorará um pouco mais
+
+(EN)
 
 - Due to recent changes in some sites like [oJogo](https://ojogo.pt/) you will need a page refresh when finding the NONIO Popup
 - Some sites like [sic](https://sic.pt) and its affiliated sites will take a lit bit longer to remove the NONIO popup
 
 ## TODO
 
-- Firefox Add-on and Chrome Extension
+- Firefox Add-on
+- Chrome Extension
 
-## Contributing
+## Contribuição / Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+(PT) Pull requests são bem vindos. Para alterações de maior, por favor abir um issue para discutir as alterações.
 
-## License
+(EN) Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Licença / License
 
 [MIT](https://choosealicense.com/licenses/mit/)
