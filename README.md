@@ -18,8 +18,8 @@
 
 (EN) Click one of the following links to install it via your favourite userscript tool:
 
-- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.min.user.js)
-- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deletenonio.user.js)
+- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deleteNonio.min.user.js)
+- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deleteNonio.user.js)
 
 ## O que faz / What does it do
 
@@ -67,8 +67,8 @@
 
 (EN)
 
-- Due to recent changes in some sites like [oJogo](https://ojogo.pt/) you will need a page refresh when finding the NONIO Popup
-- Some sites like [sic](https://sic.pt) and its affiliated sites will take a lit bit longer to remove the NONIO popup
+- Due to recent changes in some sites like [oJogo](https://ojogo.pt/) you will need a page refresh when finding the Nonio Popup
+- Some sites like [sic](https://sic.pt) and its affiliated sites will take a lit bit longer to remove the Nonio popup
 
 ## TODO
 
