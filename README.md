@@ -42,10 +42,21 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://flash.pt/>
 - <https://vidas.pt/>
 - <https://maxima.pt/>
+- <https://sic.pt/>
+- <https://sicnoticias.pt/>
+- <https://siccaras.pt/>
+- <https://sickapa.pt/>
+- <https://sicmulher.pt/>
+- <https://famashow.pt/>
 
 ## Notes
 
-Due to recent changes in some sites like [oJogo.pt](https://ojogo.pt/) you will need a page refresh when finding the NONIO Popup
+- Due to recent changes in some sites like [oJogo](https://ojogo.pt/) you will need a page refresh when finding the NONIO Popup
+- Some sites like [sic](https://sic.pt) and its affiliated sites will take a lit bit longer to remove the NONIO popup
+
+## TODO
+
+- Firefox Add-on and Chrome Extension
 
 ## Contributing
 
