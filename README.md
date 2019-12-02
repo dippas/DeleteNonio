@@ -1,6 +1,6 @@
 # DeleteNonio
 
-Delete Nonio Popup asking for register/login
+Delete/Remove Nonio Popup asking for register/login
 
 ## Installation
 
@@ -47,6 +47,7 @@ It removes the HTML popup and set it back the scrollbar in the site, so users ca
 - <https://siccaras.pt/>
 - <https://sickapa.pt/>
 - <https://sicmulher.pt/>
+- <https://sicradical.pt/>
 - <https://famashow.pt/>
 
 ## Notes
