@@ -1,6 +1,6 @@
 # DeleteNonio
 
-(PT) Remover Popup Nonio que pede dados pessoais
+(PT) Remover Nonio Popup que pede dados pessoais
 
 (EN) Delete Nonio Popup asking for register/login
 
