@@ -6,7 +6,7 @@
 
 ## Extensões / Extensions
 
-[![Firefox](https://i.imgur.com/HWnrYCV.png)  Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
+[![Firefox](https://i.imgur.com/HWnrYCV.png)  Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/) - Desktop and Android
 
 ## Instalar Script / Script Installation
 
