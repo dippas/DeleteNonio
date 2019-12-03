@@ -58,21 +58,9 @@
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 
-## Notas / Notes
-
-(PT)
-
-- Devido a alterações recentes em sites como o [oJogo](https://ojogo.pt/), será necessário actualizar a página quando aparecer o Nonio popup
-- Em alguns sites como a [sic](https://sic.pt) e seus parceiros, o remover do Nonio popup demorará um pouco mais
-
-(EN)
-
-- Due to recent changes in some sites like [oJogo](https://ojogo.pt/) you will need a page refresh when finding the Nonio Popup
-- Some sites like [sic](https://sic.pt) and its affiliated sites will take a lit bit longer to remove the Nonio popup
-
 ## TODO
 
-- Firefox Add-on
+- Firefox Add-on (in progress)
 - Chrome Extension
 
 ## Contribuição / Contributing
