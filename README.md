@@ -4,7 +4,11 @@
 
 (EN) Delete Nonio Popup asking for register/login
 
-## Instalar / Installation
+## Extensões / Extensions
+
+[![Firefox](https://i.imgur.com/HWnrYCV.png)  Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
+
+## Instalar Script / Script Installation
 
 (PT) Em caso de não ter instalado nenhuma extensão de userscript, aqui fica uma lista para fazer download
 
@@ -57,11 +61,6 @@
 - <https://sicmulher.pt/>
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
-
-## TODO
-
-- Firefox Add-on (in progress)
-- Chrome Extension
 
 ## Contribuição / Contributing
 
