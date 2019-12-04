@@ -10,19 +10,19 @@
 
 (PT)
 
-1. Clicar em 'Clone or download', escolher a opção 'Download ZIP' e extrair os ficheiros.
-2. No Chrome, escrever 'chrome://extensions/' na barra de endereços.
-3. Ativar o modo programador no canto superior direito
-4. Clicar no botão 'carregar expandida" e abrir a pasta da extensão (deleteNonio)
-5. (opcional) - Clicar em 'detalhes' e ligar o 'permitir em modo de navegação anónima'
+1. Clicar em `Clone or download`, escolher a opção `Download ZIP` e extrair os ficheiros.
+2. No Chrome, escrever `chrome://extensions/` na barra de endereços.
+3. Ativar o modo programador no canto superior direito.
+4. Clicar no botão `carregar expandida` e abrir a pasta da extensão.
+5. (opcional) - Clicar em `detalhes` e ligar o `permitir em modo de navegação anónima`.
 
 (EN)
 
-1. Click in 'Clone or download' button,  choose 'Download ZIP' option and extract the files.
-2. In Chrome, type 'chrome://extensions/' in address bar.
-3. Activate developer mode on upper right side
-4. Click on button 'Load unpacked' and open extension folder (deleteNonio)
-5. (optional) - Click in details button and enable 'allow in incognito'
+1. Click in `Clone or download` button,  choose `Download ZIP` option and extract the files.
+2. In Chrome, type `chrome://extensions/` in address bar.
+3. Activate developer mode on upper right side.
+4. Click on button `Load unpacked` and open extension folder.
+5. (optional) - Click in `details` button and enable `allow in incognito`.
 
 ## Instalar Script de utilizador / User Script Installation
 
