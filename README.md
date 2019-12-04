@@ -4,11 +4,27 @@
 
 (EN) Delete Nonio Popup asking for register/login
 
-## Extensões / Extensions
+## ![Firefox](https://i.imgur.com/k8dziXb.png) [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
 
-[![Firefox](https://i.imgur.com/HWnrYCV.png)  Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/) - Desktop and Android
+## ![Chrome](https://i.imgur.com/ljzYiSH.png) Instalar Extensão no Chrome / Manually Add to Chrome
 
-## Instalar Script / Script Installation
+(PT)
+
+1. Clicar em 'Clone or download', escolher a opção 'Download ZIP' e extrair os ficheiros.
+2. No Chrome, escrever 'chrome://extensions/' na barra de endereços.
+3. Ativar o modo programador no canto superior direito
+4. Clicar no botão 'carregar expandida" e abrir a pasta da extensão (deleteNonio)
+5. (opcional) - Clicar em 'detalhes' e ligar o 'permitir em modo de navegação anónima'
+
+(EN)
+
+1. Click in 'Clone or download' button,  choose 'Download ZIP' option and extract the files.
+2. In Chrome, type 'chrome://extensions/' in address bar.
+3. Activate developer mode on upper right side
+4. Click on button 'Load unpacked' and open extension folder (deleteNonio)
+5. (optional) - Click in details button and enable 'allow in incognito'
+
+## Instalar Script de utilizador / User Script Installation
 
 (PT) Em caso de não ter instalado nenhuma extensão de userscript, aqui fica uma lista para fazer download
 
