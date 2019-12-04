@@ -4,9 +4,9 @@
 
 (EN) Delete Nonio Popup asking for register/login
 
-## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extensão/Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
+## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
 
-## ![Chrome](https://i.imgur.com/RctyFpe.png) Instalar Extensão no Chrome / Manually Add to Chrome
+## ![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension
 
 (PT)
 
