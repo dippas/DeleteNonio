@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.0.2
+// @version      1.0.3
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -12,6 +12,8 @@
 // @match        https://*.sapo.pt/*
 // @match        https://*.blitz.pt/*
 // @match        https://*.visao.pt/*
+// @match        https://*.tribunaexpresso.pt/*
+// @match        https://*.expresso.pt/*
 // @match        https://*.expressoemprego.pt/*
 // @match        https://*.cm-tv.pt/*
 // @match        https://*.cmjornal.pt/*

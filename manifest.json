@@ -2,7 +2,8 @@
 
 	"manifest_version": 2,
 	"name": "DeleteNonio",
-	"version": "1.0.2",
+	"version": "1.0.3",
+	"author": "dippas",
 	"description": "Remover Nonio Popup dos sites",
 
 	"icons": {
