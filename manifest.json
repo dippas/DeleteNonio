@@ -17,11 +17,8 @@
 		"default_title": "DeleteNonio"
 	},
 	
-	"permissions": [
-		"activeTab"
-	],
-
 	"content_scripts": [{
+		"matches": ["*://*/*"],
 		"js": ["js/deletenonio.user.js"]
 	}]
 }
