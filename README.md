@@ -55,6 +55,8 @@
 - <https://sapo.pt/>
 - <https://blitz.pt/>
 - <https://visao.pt/>
+- <https://tribunaexpresso.pt/>
+- <https://expresso.pt/>
 - <https://expressoemprego.pt/>
 - <https://www.cm-tv.pt/>
 - <https://cmjornal.pt/>
