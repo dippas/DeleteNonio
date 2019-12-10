@@ -1,10 +1,25 @@
 # DeleteNonio
 
+[![stars](https://img.shields.io/github/stars/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/stargazers)
+[![forks](https://img.shields.io/github/forks/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/network)
+![GitHub watchers](https://img.shields.io/github/watchers/dippas/deletenonio?label=Watchers&style=social)
+
+[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
+![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio)
+![language](https://img.shields.io/github/languages/top/dippas/deletenonio)
+![repo size](https://img.shields.io/github/repo-size/dippas/deletenonio)
+![issues](https://img.shields.io/github/issues/dippas/deletenonio)
+![Maintenance](https://img.shields.io/maintenance/yes/2019)
+![GitHub last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
+
 (PT) Remover Nonio Popup que pede dados pessoais
 
 (EN) Delete Nonio Popup asking for register/login
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/deletenonio/)
+
+![Mozilla Add-on](https://img.shields.io/amo/v/deletenonio?color=orange)
+![Add-on](https://img.shields.io/amo/dw/deletenonio?color=orange)
 
 ## ![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension
 
@@ -86,6 +101,8 @@
 
 (EN) Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Licença / License
+![GitHub pull requests](https://img.shields.io/github/issues-pr/dippas/deletenonio)
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Licença / License
+[![GitHub](https://img.shields.io/github/license/dippas/deletenonio)](https://choosealicense.com/licenses/mit/)
+
