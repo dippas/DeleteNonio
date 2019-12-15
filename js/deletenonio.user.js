@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.1.0
+// @version      1.1.1
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -36,6 +36,7 @@
 // @match        https://*.sicradical.pt/*
 // @match        https://*.sicmulher.pt/*
 // @match        https://*.siccaras.pt/*
+// @match        https://*.vdigital.pt/*
 // @grant        none
 // ==/UserScript==
 
@@ -107,16 +108,8 @@ const deleteNonio = {
 		}, 100);
 	},
 
-	domainFix() {
-		if (window.location.href.indexOf('ojogo.pt') > -1) {
-			const element = document.getElementsByTagName('article')[0],
-				newElement = document.createElement('deletenonio');
-
-			newElement.insertAdjacentHTML('beforeend', element.innerHTML)
-			element.parentNode.insertBefore(newElement, element);
-			element.parentNode.removeChild(element);
-		}
-		if (window.location.href.indexOf('tsf.pt') > -1) {
+	specificDomainFix() {
+		if (window.location.href.indexOf('tsf.pt') > -1 || window.location.href.indexOf('vdigital.pt') > -1 || window.location.href.indexOf('ojogo.pt') > -1) {
 
 			document.cookie.split(";").forEach(value => {
 				document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`);
@@ -135,7 +128,7 @@ const deleteNonio = {
 
 	init() {
 		this.events();
-		this.domainFix();
+		this.specificDomainFix();
 	}
 }
 deleteNonio.init();

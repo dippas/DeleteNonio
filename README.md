@@ -94,6 +94,7 @@
 - <https://sicmulher.pt/>
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
+- <https://vdigital.pt/>
 
 ## Contribuição / Contributing
 
