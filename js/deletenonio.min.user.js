@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.0.3
+// @version      1.1.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -52,5 +52,7 @@ const deleteNonio={el:{html:document.documentElement,body:document.body},events(
 	if(document.querySelectorAll('.tp-iframe-wrapper')[0]){clearInterval(hasElement)
 	this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('.tp-iframe-wrapper')[0].outerHTML=''}
 	if(document.querySelectorAll('iframe[src^="/content"]')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML=''}
-	if(document.querySelectorAll('#imp-content-gate-root')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('#imp-content-gate-root')[0].outerHTML=''}},100)},saveContentInFakeElement(){if(window.location.href.indexOf('ojogo.pt')>-1){const element=document.getElementsByTagName('article')[0],newElement=document.createElement('deletenonio');newElement.innerHTML=element.innerHTML;element.parentNode.insertBefore(newElement,element);element.parentNode.removeChild(element)}},init(){this.events();this.saveContentInFakeElement()}}
+	if(document.querySelectorAll('#imp-content-gate-root')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('#imp-content-gate-root')[0].outerHTML=''}},100)},domainFix(){if(window.location.href.indexOf('ojogo.pt')>-1){const element=document.getElementsByTagName('article')[0],newElement=document.createElement('deletenonio');newElement.insertAdjacentHTML('beforeend',element.innerHTML)
+	element.parentNode.insertBefore(newElement,element);element.parentNode.removeChild(element)}
+	if(window.location.href.indexOf('tsf.pt')>-1){document.cookie.split(";").forEach(value=>{document.cookie=value.replace(/^ +/,"").replace(/=.*/,`=;expires=${new Date().toUTCString()};path=/`)});window.addEventListener('load',()=>{if(document.querySelectorAll('iframe[src^="/content"]')[0]){this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML=''}})}},init(){this.events();this.domainFix()}}
 	deleteNonio.init()

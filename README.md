@@ -101,8 +101,8 @@
 
 (EN) Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/pulls)
+[![Pull requests](https://img.shields.io/github/issues-pr/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/pulls)
 
 ## Licença / License
-[![GitHub](https://img.shields.io/github/license/dippas/deletenonio)](https://choosealicense.com/licenses/mit/)
 
+[![MIT](https://img.shields.io/github/license/dippas/deletenonio)](https://choosealicense.com/licenses/mit/)

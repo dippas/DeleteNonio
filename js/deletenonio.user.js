@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.0.3
+// @version      1.1.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -48,42 +48,42 @@ const deleteNonio = {
 	events() {
 		const hasElement = setInterval(() => {
 
-			if(document.querySelectorAll('[id^="layer_gatting"]')[0]) {
+			if (document.querySelectorAll('[id^="layer_gatting"]')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('[id^="layer_gatting"]')[0].outerHTML = '';
 			}
 
-			if(document.querySelectorAll('.nonioBox')[0]) {
+			if (document.querySelectorAll('.nonioBox')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('.nonioBox')[0].outerHTML = '';
 			}
 
-			if(document.querySelectorAll('.warning-nonio-overlay')[0]) {
+			if (document.querySelectorAll('.warning-nonio-overlay')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('.warning-nonio-overlay')[0].outerHTML = '';
 			}
 
-			if	(document.querySelectorAll('.tp-modal')[0]) {
+			if (document.querySelectorAll('.tp-modal')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('.tp-modal')[0].outerHTML = '';
 			}
 
-			if(document.querySelectorAll('.tp-backdrop')[0]) {
+			if (document.querySelectorAll('.tp-backdrop')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('.tp-backdrop')[0].outerHTML = '';
 			}
 
-			if(document.querySelectorAll('.tp-iframe-wrapper')[0]) {
+			if (document.querySelectorAll('.tp-iframe-wrapper')[0]) {
 				clearInterval(hasElement)
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
@@ -107,20 +107,35 @@ const deleteNonio = {
 		}, 100);
 	},
 
-	saveContentInFakeElement() {
+	domainFix() {
 		if (window.location.href.indexOf('ojogo.pt') > -1) {
 			const element = document.getElementsByTagName('article')[0],
 				newElement = document.createElement('deletenonio');
 
-			newElement.innerHTML = element.innerHTML;
+			newElement.insertAdjacentHTML('beforeend', element.innerHTML)
 			element.parentNode.insertBefore(newElement, element);
 			element.parentNode.removeChild(element);
+		}
+		if (window.location.href.indexOf('tsf.pt') > -1) {
+
+			document.cookie.split(";").forEach(value => {
+				document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`);
+			});
+
+			window.addEventListener('load', () => {
+				if (document.querySelectorAll('iframe[src^="/content"]')[0]) {
+					this.el.html.style = 'overflow: auto !important';
+					this.el.body.style = 'overflow: auto !important';
+					document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML = '';
+				}
+			})
+
 		}
 	},
 
 	init() {
 		this.events();
-		this.saveContentInFakeElement();
+		this.domainFix();
 	}
 }
 deleteNonio.init();
