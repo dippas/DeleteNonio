@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.1.1
+// @version      1.2.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -52,6 +52,5 @@ const deleteNonio={el:{html:document.documentElement,body:document.body},events(
 	this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('.tp-backdrop')[0].outerHTML=''}
 	if(document.querySelectorAll('.tp-iframe-wrapper')[0]){clearInterval(hasElement)
 	this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('.tp-iframe-wrapper')[0].outerHTML=''}
-	if(document.querySelectorAll('iframe[src^="/content"]')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML=''}
-	if(document.querySelectorAll('#imp-content-gate-root')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('#imp-content-gate-root')[0].outerHTML=''}},100)},specificDomainFix(){if(window.location.href.indexOf('tsf.pt')>-1||window.location.href.indexOf('vdigital.pt')>-1||window.location.href.indexOf('ojogo.pt')>-1){document.cookie.split(";").forEach(value=>{document.cookie=value.replace(/^ +/,"").replace(/=.*/,`=;expires=${new Date().toUTCString()};path=/`)});window.addEventListener('load',()=>{if(document.querySelectorAll('iframe[src^="/content"]')[0]){this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML=''}})}},init(){this.events();this.specificDomainFix()}}
+	if(document.querySelectorAll('#imp-content-gate-root')[0]){clearInterval(hasElement);this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('#imp-content-gate-root')[0].outerHTML=''}},100)},globalmediaGroupFix(){if(window.location.href.indexOf('dinheirovivo.pt')>-1||window.location.href.indexOf('tsf.pt')>-1||window.location.href.indexOf('vdigital.pt')>-1||window.location.href.indexOf('ojogo.pt')>-1||window.location.href.indexOf('jn.pt')>-1||window.location.href.indexOf('dn.pt')>-1){document.cookie.split(";").forEach(value=>{document.cookie=value.replace(/^ +/,"").replace(/=.*/,`=;expires=${new Date().toUTCString()};path=/`)});window.addEventListener('load',()=>{if(document.querySelectorAll('iframe[src^="/content"]')[0]){this.el.html.style='overflow: auto !important';this.el.body.style='overflow: auto !important';document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML=''}})}},init(){this.events();this.globalmediaGroupFix()}}
 	deleteNonio.init()

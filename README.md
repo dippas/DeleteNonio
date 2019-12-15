@@ -96,6 +96,12 @@
 - <https://famashow.pt/>
 - <https://vdigital.pt/>
 
+## Notas / Notes
+
+(PT) Para melhor desempenho do plugin/script, ter o mesmo sempre atualizado, ver a versão actualizada do mesmo em cima
+
+(EN) For better plugin/script performance please keep it updated, see the updated version above
+
 ## Contribuição / Contributing
 
 (PT) Pull requests são bem vindos. Para alterações de maior, por favor abir um issue para discutir as alterações.
