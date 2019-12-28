@@ -2,6 +2,10 @@
 
 Remover NONIO
 
+## Give some love to keep the project live
+
+[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
+
 ## Status
 
 [![stars](https://img.shields.io/github/stars/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/stargazers)
@@ -98,11 +102,6 @@ Remover NONIO
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 - <https://vdigital.pt/>
-
-
-## Give some love
-
-[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
 
 ## Notas / Notes
 
