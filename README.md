@@ -8,25 +8,25 @@ Remover NONIO
 [![forks](https://img.shields.io/github/forks/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/dippas/deletenonio?label=Watchers&style=social)](https://github.com/dippas/DeleteNonio/watchers)
 
-[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
 ![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio)
 ![language](https://img.shields.io/github/languages/top/dippas/deletenonio)
 ![repo size](https://img.shields.io/github/repo-size/dippas/deletenonio)
 [![issues](https://img.shields.io/github/issues/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/issues)
-![Maintenance](https://img.shields.io/maintenance/yes/2019)
-![GitHub last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
+![maintenance](https://img.shields.io/maintenance/yes/2019)
+![last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
+![all releases](https://img.shields.io/github/downloads/dippas/deletenonio/total?color=green&label=download%20releases)
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
-[![Version Add-on](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
-[![Downloads](https://img.shields.io/amo/dw/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
-[![Users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+[![version](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+[![downloads](https://img.shields.io/amo/dw/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+[![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
 ## ![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension
 
 (PT)
 
-1. Clicar em `Clone or download`, escolher a opção `Download ZIP` e extrair os ficheiros.
+1. Clicar [aqui](https://github.com/dippas/DeleteNonio/releases/latest) para obter a ultima versão e extrair os ficheiros.
 2. No Chrome, escrever `chrome://extensions/` na barra de endereços.
 3. Ativar o modo programador no canto superior direito.
 4. Clicar no botão `carregar expandida` e abrir a pasta da extensão.
@@ -34,7 +34,7 @@ Remover NONIO
 
 (EN)
 
-1. Click in `Clone or download` button,  choose `Download ZIP` option and extract the files.
+1. Click [here](https://github.com/dippas/DeleteNonio/releases/latest) to get the latest version and extract the files.
 2. In Chrome, type `chrome://extensions/` in address bar.
 3. Activate developer mode on upper right side.
 4. Click on button `Load unpacked` and open extension folder.
@@ -96,6 +96,11 @@ Remover NONIO
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 - <https://vdigital.pt/>
+
+
+## Give some love
+
+[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
 
 ## Notas / Notes
 
