@@ -2,7 +2,7 @@
 
 Remover NONIO
 
-## Give some love to keep the project live
+## Give some love to help keep the project alive
 
 [![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
 
