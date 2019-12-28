@@ -8,12 +8,14 @@ Remover NONIO
 [![forks](https://img.shields.io/github/forks/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/dippas/deletenonio?label=Watchers&style=social)](https://github.com/dippas/DeleteNonio/watchers)
 
-![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio)
+![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio?label=manifest%20version)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/releases/latest)
 ![language](https://img.shields.io/github/languages/top/dippas/deletenonio)
 ![repo size](https://img.shields.io/github/repo-size/dippas/deletenonio)
 [![issues](https://img.shields.io/github/issues/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/issues)
 ![maintenance](https://img.shields.io/maintenance/yes/2019)
 ![last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
+![release date](https://img.shields.io/github/release-date/dippas/deletenonio)
 ![all releases](https://img.shields.io/github/downloads/dippas/deletenonio/total?color=green&label=download%20releases)
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
