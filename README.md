@@ -32,19 +32,21 @@ Remover NONIO
 
 (PT)
 
-1. Clicar [aqui](https://github.com/dippas/DeleteNonio/releases/latest) para obter a ultima versão e extrair os ficheiros.
-2. No Chrome, escrever `chrome://extensions/` na barra de endereços.
-3. Ativar o modo programador no canto superior direito.
-4. Clicar no botão `carregar expandida` e abrir a pasta da extensão.
-5. (opcional) - Clicar em `detalhes` e ligar o `permitir em modo de navegação anónima`.
+1. Clicar [aqui](https://github.com/dippas/DeleteNonio/releases/latest) para obter a ultima versão.
+2. Escolher um dos formatos `DeleteNonio-x.x.x.zip` ou `DeleteNonio-x.x.x.tar.gz` e extrair os ficheiros.
+3. No Chrome, escrever `chrome://extensions/` na barra de endereços.
+4. Ativar o modo programador no canto superior direito.
+5. Clicar no botão `carregar expandida` e abrir a pasta da extensão.
+6. (opcional) - Clicar em `detalhes` e ligar o `permitir em modo de navegação anónima`.
 
 (EN)
 
-1. Click [here](https://github.com/dippas/DeleteNonio/releases/latest) to get the latest version and extract the files.
-2. In Chrome, type `chrome://extensions/` in address bar.
-3. Activate developer mode on upper right side.
-4. Click on button `Load unpacked` and open extension folder.
-5. (optional) - Click in `details` button and enable `allow in incognito`.
+1. Click [here](https://github.com/dippas/DeleteNonio/releases/latest) to get the latest version.
+2. Choose one of the available formats `DeleteNonio-x.x.x.zip` ou `DeleteNonio-x.x.x.tar.gz` and extract files.
+3. In Chrome, type `chrome://extensions/` in address bar.
+4. Activate developer mode on upper right side.
+5. Click on button `Load unpacked` and open extension folder.
+6. (optional) - Click in `details` button and enable `allow in incognito`.
 
 ## Instalar Script de utilizador / User Script Installation
 
