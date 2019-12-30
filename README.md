@@ -15,6 +15,7 @@ Remover NONIO
 ![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio?label=manifest%20version)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/releases/latest)
 ![language](https://img.shields.io/github/languages/top/dippas/deletenonio)
+![language](https://img.shields.io/github/languages/count/dippas/deletenonio)
 ![repo size](https://img.shields.io/github/repo-size/dippas/deletenonio)
 [![issues](https://img.shields.io/github/issues/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/issues)
 ![maintenance](https://img.shields.io/maintenance/yes/2020)
@@ -107,17 +108,10 @@ Remover NONIO
 
 ## Notas / Notes
 
-(PT)
+(PT) Para melhor desempenho do plugin/script, ter o mesmo sempre atualizado, ver a versão actualizada do mesmo em cima
 
-- Para melhor desempenho do plugin/script, ter o mesmo sempre atualizado, ver a versão actualizada do mesmo em cima
+(EN) For better plugin/script performance please keep it updated, see the updated version above
 
-- O badge verde OK no ícone do addon significa que o script já foi executado, independentemente da página ter ou não a Nónio
-
-(EN)
-
-- For better plugin/script performance please keep it updated, see the updated version above
-
-- The OK green badge in the addon's icon means that the script is already executed, whether the Nonio popup is there or not.
 
 ## Contribuição / Contributing
 
