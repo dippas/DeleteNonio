@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.2.0
+// @version      1.3.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -39,6 +39,8 @@
 // @match        https://*.vdigital.pt/*
 // @grant        none
 // ==/UserScript==
+
+
 
 const deleteNonio = {
 	el: {
@@ -91,7 +93,6 @@ const deleteNonio = {
 				document.querySelectorAll('.tp-iframe-wrapper')[0].outerHTML = '';
 			}
 
-
 			if (document.querySelectorAll('#imp-content-gate-root')[0]) {
 				clearInterval(hasElement);
 				this.el.html.style = 'overflow: auto !important';
@@ -116,7 +117,6 @@ const deleteNonio = {
 					document.querySelectorAll('iframe[src^="/content"]')[0].outerHTML = '';
 				}
 			})
-
 		}
 	},
 
@@ -125,4 +125,21 @@ const deleteNonio = {
 		this.globalmediaGroupFix();
 	}
 }
-deleteNonio.init();
+
+function handleResponse(message) {
+	console.log(message);
+	deleteNonio.init();
+}
+
+function handleError(error) {
+	console.log(`Error: ${error}`);
+}
+
+function sendMessageNotification() {
+	const sending = browser.runtime.sendMessage({
+		status: 'done'
+	});
+	sending.then(handleResponse, handleError);
+}
+
+window.addEventListener('load', sendMessageNotification);
