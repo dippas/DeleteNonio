@@ -1,20 +1,28 @@
 browser.tabs.onUpdated.addListener((tabId, changeInfo) => {
-	browser.browserAction.setBadgeBackgroundColor({
-		color: changeInfo.status === 'complete' ? 'green' : '',
-		tabId: tabId
-	});
-	browser.browserAction.setBadgeText({
-		text: changeInfo.status === 'complete' ? 'OK' : ''
-	})
+	if (typeof browser.browserAction.setBadgeBackgroundColor === 'function') {
+		browser.browserAction.setBadgeBackgroundColor({
+			color: changeInfo.status === 'complete' ? 'green' : '',
+			tabId: tabId
+		});
+	}
+	if (typeof browser.browserAction.setBadgeText === 'function') {
+		browser.browserAction.setBadgeText({
+			text: changeInfo.status === 'complete' ? 'OK' : ''
+		});
+	}
 });
 
 function handleMessage(request, sender, sendResponse) {
-	browser.browserAction.setBadgeBackgroundColor({
-		color: 'green'
-	});
-	browser.browserAction.setBadgeText({
-		text: 'OK'
-	});
+	if (typeof browser.browserAction.setBadgeBackgroundColor === 'function') {
+		browser.browserAction.setBadgeBackgroundColor({
+			color: 'green'
+		});
+	}
+	if (typeof browser.browserAction.setBadgeText === 'function') {
+		browser.browserAction.setBadgeText({
+			text: 'OK'
+		});
+	}
 	sendResponse({
 		response: 'Done'
 	});
