@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover Nonio Popup dos sites
-// @version      1.3.2
+// @version      1.3.3
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
@@ -98,6 +98,12 @@ const deleteNonio = {
 				this.el.html.style = 'overflow: auto !important';
 				this.el.body.style = 'overflow: auto !important';
 				document.querySelectorAll('#imp-content-gate-root')[0].outerHTML = '';
+			}
+			if (document.querySelectorAll('#nonio-basiclogin')[0]) {
+				clearInterval(hasElement);
+				this.el.html.style = 'overflow: auto !important';
+				this.el.body.style = 'overflow: auto !important';
+				document.querySelectorAll('#nonio-basiclogin')[0].outerHTML = '';
 			}
 
 		}, 100);
