@@ -1,6 +1,6 @@
 # DeleteNonio
 
-Remover NONIO
+Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
 
 ## Give some love to help keep the project alive
 
