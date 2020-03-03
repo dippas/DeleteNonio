@@ -4,7 +4,7 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 
 ## Give some love to help keep the project alive
 
-[![paypal](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.me/fserpa)
+[![bc](https://cdn.buymeacoffee.com/buttons/lato-black.png)](https://www.buymeacoffee.com/dippas)
 
 ## Status
 
