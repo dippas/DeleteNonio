@@ -6,6 +6,7 @@
 // @description  Remover Nonio Popup dos sites
 // @version      1.4.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
+// @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
 // @match        https://*.xl.pt/*
 // @match        https://*.publico.pt/*
