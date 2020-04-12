@@ -63,8 +63,8 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 
 (EN) Click one of the following links to install it via your favourite userscript tool:
 
-- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deleteNonio.min.user.js)
-- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/deleteNonio.user.js)
+- [Minified](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deleteNonio.min.user.js)
+- [Original](https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deleteNonio.user.js)
 
 ## O que faz / What does it do
 
@@ -111,7 +111,6 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 (PT) Para melhor desempenho do plugin/script, ter o mesmo sempre atualizado, ver a versão actualizada do mesmo em cima
 
 (EN) For better plugin/script performance please keep it updated, see the updated version above
-
 
 ## Contribuição / Contributing
 

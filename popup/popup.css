@@ -48,3 +48,21 @@ a:hover {
 	background-color: var(--red);
 	transition: .2s ease-in;
 }
+
+img {
+	max-width: 25rem;
+	border-radius: calc(var(--spacing) / 2);
+}
+
+span {
+	font-size: var(--textSize);
+}
+
+.no-pad {
+	padding: 0;
+}
+
+.no-bg,
+.no-bg:hover {
+	background: transparent;
+}
