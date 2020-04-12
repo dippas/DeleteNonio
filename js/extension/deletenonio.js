@@ -1,7 +1,8 @@
 const deleteNonio = {
 	el: {
 		html: document.documentElement,
-		body: document.body
+		body: document.body,
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt']
 	},
 
 	removeElement(element) {
@@ -11,7 +12,6 @@ const deleteNonio = {
 			this.el.body.style = 'overflow: auto !important';
 			document.querySelectorAll(element)[0].outerHTML = '';
 		}
-		console.log('remove')
 	},
 
 	events() {
@@ -25,20 +25,20 @@ const deleteNonio = {
 			this.removeElement('.tp-backdrop')
 			this.removeElement('.tp-iframe-wrapper')
 		}, 100);
-		console.log('events')
 	},
 
 	globalmediaGroupFix() {
-		if (window.location.href.indexOf('dinheirovivo.pt') > -1 || window.location.href.indexOf('tsf.pt') > -1 || window.location.href.indexOf('vdigital.pt') > -1 || window.location.href.indexOf('ojogo.pt') > -1 || window.location.href.indexOf('jn.pt') > -1 || window.location.href.indexOf('dn.pt') > -1) {
-			document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`));
-			window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'))
-		}
+		this.el.globalmediaGroupUrls.forEach(url => {
+			if (window.location.href.indexOf(url) > -1) {
+				document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`));
+				window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'))
+			}
+		})
 	},
 
 	init() {
 		this.events();
 		this.globalmediaGroupFix();
-		console.log('init')
 	}  
 }
 

@@ -3,8 +3,8 @@
 // @author       dippas
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
-// @description  Remover Nonio Popup dos sites
-// @version      1.4.0
+// @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
+// @version      1.4.1
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -44,7 +44,8 @@
 const deleteNonio = {
 	el: {
 		html: document.documentElement,
-		body: document.body
+		body: document.body,
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt']
 	},
 
 	removeElement(element) {
@@ -70,10 +71,12 @@ const deleteNonio = {
 	},
 
 	globalmediaGroupFix() {
-		if (window.location.href.indexOf('dinheirovivo.pt') > -1 || window.location.href.indexOf('tsf.pt') > -1 || window.location.href.indexOf('vdigital.pt') > -1 || window.location.href.indexOf('ojogo.pt') > -1 || window.location.href.indexOf('jn.pt') > -1 || window.location.href.indexOf('dn.pt') > -1) {
-			document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`));
-			window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'))
-		}
+		this.el.globalmediaGroupUrls.forEach(url => {
+			if (window.location.href.indexOf(url) > -1) {
+				document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`));
+				window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'))
+			}
+		})
 	},
 
 	init() {
@@ -81,4 +84,4 @@ const deleteNonio = {
 		this.globalmediaGroupFix();
 	}
 }
-deleteNonio.init()
+deleteNonio.init();

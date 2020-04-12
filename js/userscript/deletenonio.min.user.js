@@ -3,8 +3,8 @@
 // @author       dippas
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
-// @description  Remover Nonio Popup dos sites
-// @version      1.4.0
+// @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
+// @version      1.4.1
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -41,4 +41,4 @@
 // @grant        none
 // ==/UserScript==
 
-const deleteNonio={el:{html:document.documentElement,body:document.body},removeElement(a){document.querySelectorAll(a)[0]&&(clearInterval(this.hasElement),this.el.html.style="overflow: auto !important",this.el.body.style="overflow: auto !important",document.querySelectorAll(a)[0].outerHTML="")},events(){this.hasElement=setInterval(()=>{this.removeElement("#imp-content-gate-root"),this.removeElement("#nonio-basiclogin"),this.removeElement("[id^=\"layer_gatting\"]"),this.removeElement(".nonioBox"),this.removeElement(".warning-nonio-overlay"),this.removeElement(".tp-modal"),this.removeElement(".tp-backdrop"),this.removeElement(".tp-iframe-wrapper")},100)},globalmediaGroupFix(){(-1<window.location.href.indexOf("dinheirovivo.pt")||-1<window.location.href.indexOf("tsf.pt")||-1<window.location.href.indexOf("vdigital.pt")||-1<window.location.href.indexOf("ojogo.pt")||-1<window.location.href.indexOf("jn.pt")||-1<window.location.href.indexOf("dn.pt"))&&(document.cookie.split(";").forEach(a=>document.cookie=a.replace(/^ +/,"").replace(/=.*/,`=;expires=${new Date().toUTCString()};path=/`)),window.addEventListener("load",()=>this.removeElement("iframe[src^=\"/content\"]")))},init(){this.events(),this.globalmediaGroupFix()}};deleteNonio.init();
+const deleteNonio={el:{html:document.documentElement,body:document.body,globalmediaGroupUrls:["dinheirovivo.pt","tsf.pt","vdigital.pt","ojogo.pt","jn.pt","dn.pt"]},removeElement(a){document.querySelectorAll(a)[0]&&(clearInterval(this.hasElement),this.el.html.style="overflow: auto !important",this.el.body.style="overflow: auto !important",document.querySelectorAll(a)[0].outerHTML="")},events(){this.hasElement=setInterval(()=>{this.removeElement("#imp-content-gate-root"),this.removeElement("#nonio-basiclogin"),this.removeElement("[id^=\"layer_gatting\"]"),this.removeElement(".nonioBox"),this.removeElement(".warning-nonio-overlay"),this.removeElement(".tp-modal"),this.removeElement(".tp-backdrop"),this.removeElement(".tp-iframe-wrapper")},100)},globalmediaGroupFix(){this.el.globalmediaGroupUrls.forEach(a=>{-1<window.location.href.indexOf(a)&&(document.cookie.split(";").forEach(a=>document.cookie=a.replace(/^ +/,"").replace(/=.*/,`=;expires=${new Date().toUTCString()};path=/`)),window.addEventListener("load",()=>this.removeElement("iframe[src^=\"/content\"]")))})},init(){this.events(),this.globalmediaGroupFix()}};deleteNonio.init();
