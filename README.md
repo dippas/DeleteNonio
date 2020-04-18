@@ -31,25 +31,16 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
  [![Mozilla Add-on](https://img.shields.io/amo/stars/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
-## ![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension
+## NEW - Extensão do chrome disponivel na webstore
 
-(PT)
+## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa?hl=pt-PT)
 
-1. Clicar [aqui](https://github.com/dippas/DeleteNonio/releases/latest) para obter a ultima versão.
-2. Escolher um dos formatos `DeleteNonio-x.x.x.zip` ou `DeleteNonio-x.x.x.tar.gz` e extrair os ficheiros.
-3. No Chrome, escrever `chrome://extensions/` na barra de endereços.
-4. Ativar o modo programador no canto superior direito.
-5. Clicar no botão `carregar expandida` e abrir a pasta da extensão.
-6. (opcional) - Clicar em `detalhes` e ligar o `permitir em modo de navegação anónima`.
+- (PT) Quem tiver extensão do chrome instalada manualmente, remova e instale pelo link da store para obter updates automáticos
 
-(EN)
+- (EN) Who installed the extension manually, please remove it from chrome and install chrome store in order to have auto updates.
 
-1. Click [here](https://github.com/dippas/DeleteNonio/releases/latest) to get the latest version.
-2. Choose one of the available formats `DeleteNonio-x.x.x.zip` ou `DeleteNonio-x.x.x.tar.gz` and extract files.
-3. In Chrome, type `chrome://extensions/` in address bar.
-4. Activate developer mode on upper right side.
-5. Click on button `Load unpacked` and open extension folder.
-6. (optional) - Click in `details` button and enable `allow in incognito`.
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)
 
 ## Instalar Script de utilizador / User Script Installation
 
