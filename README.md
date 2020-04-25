@@ -21,8 +21,6 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 ![maintenance](https://img.shields.io/maintenance/yes/2020)
 ![last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
 ![release date](https://img.shields.io/github/release-date/dippas/deletenonio)
-![download all releases](https://img.shields.io/github/downloads/dippas/deletenonio/total?color=green&label=download%20releases)
-![download latest releases](https://img.shields.io/github/downloads/dippas/deletenonio/latest/total?color=green)
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
