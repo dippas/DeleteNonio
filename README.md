@@ -6,6 +6,12 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 
 [![bc](https://cdn.buymeacoffee.com/buttons/lato-black.png)](https://www.buymeacoffee.com/dippas)
 
+## ChangeLog
+
+(PT) Para vericar que tipo de alterações têm sido efetuadas clique [aqui](https://github.com/dippas/DeleteNonio/releases)
+
+(EN) You can check what kind of updates has been made by clicking [here](https://github.com/dippas/DeleteNonio/releases)
+
 ## Status
 
 [![stars](https://img.shields.io/github/stars/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/stargazers)
