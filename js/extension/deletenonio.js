@@ -2,7 +2,8 @@ const deleteNonio = {
 	el: {
 		html: document.documentElement,
 		body: document.body,
-		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt']
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt'],
+		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt']
 	},
 
 	removeElement(element) {
@@ -27,6 +28,14 @@ const deleteNonio = {
 		}, 100);
 	},
 
+	cofinaGroupVideosFix() {
+		this.el.cofinaGroupURLs.forEach(url => {
+			if (window.location.href.indexOf(url) > -1) {
+				this.hasElement ? document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`)) : '';
+			}
+		})
+	},
+
 	globalmediaGroupFix() {
 		this.el.globalmediaGroupUrls.forEach(url => {
 			if (window.location.href.indexOf(url) > -1) {
@@ -39,6 +48,7 @@ const deleteNonio = {
 	init() {
 		this.events();
 		this.globalmediaGroupFix();
+		this.cofinaGroupVideosFix();
 	}  
 }
 

@@ -1,6 +1,6 @@
 # DeleteNonio
 
-Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
+Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
 
 ## Give some love to help keep the project alive
 
@@ -96,6 +96,8 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 - <https://vdigital.pt/>
+- <https://destak.pt/>
+- <http://empregosonline.pt/>
 
 ## Notas / Notes
 

@@ -2,9 +2,9 @@
 
 	"manifest_version": 2,
 	"name": "DeleteNonio",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"author": "dippas",
-	"description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.",
+	"description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.",
 
 	"icons": {
 		"32": "icons/icon-32.png",
@@ -19,6 +19,10 @@
 			"js/extension/background.js"
 		]
 	},
+
+	"permissions": [
+		"activeTab"
+	],	
 
 	"browser_action": {
 		"default_icon": "icons/icon-32.png",
