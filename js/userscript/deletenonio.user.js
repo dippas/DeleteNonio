@@ -73,7 +73,7 @@ const deleteNonio = {
 			this.removeElement('.tp-iframe-wrapper')
 		}, 100);
 	},
-	
+
 	cofinaGroupVideosFix() {
 		this.el.cofinaGroupURLs.forEach(url => {
 			if (window.location.href.indexOf(url) > -1) {
@@ -94,6 +94,7 @@ const deleteNonio = {
 	init() {
 		this.events();
 		this.globalmediaGroupFix();
+		this.cofinaGroupVideosFix();
 	}
 }
 deleteNonio.init();
