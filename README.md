@@ -18,20 +18,15 @@ Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível co
 [![forks](https://img.shields.io/github/forks/dippas/DeleteNonio.svg?style=social)](https://github.com/dippas/DeleteNonio/network)
 [![watchers](https://img.shields.io/github/watchers/dippas/deletenonio?label=Watchers&style=social)](https://github.com/dippas/DeleteNonio/watchers)
 
-![manifest version](https://img.shields.io/github/manifest-json/v/dippas/deletenonio?label=manifest%20version)
 [![release (latest by date)](https://img.shields.io/github/v/release/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/releases/latest)
 ![language top](https://img.shields.io/github/languages/top/dippas/deletenonio)
-![language counter](https://img.shields.io/github/languages/count/dippas/deletenonio)
-![repo size](https://img.shields.io/github/repo-size/dippas/deletenonio)
 [![issues](https://img.shields.io/github/issues/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/issues)
 ![maintenance](https://img.shields.io/maintenance/yes/2020)
-![last commit](https://img.shields.io/github/last-commit/dippas/deletenonio)
 ![release date](https://img.shields.io/github/release-date/dippas/deletenonio)
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
 [![version](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
-[![downloads](https://img.shields.io/amo/dw/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
  [![Mozilla Add-on](https://img.shields.io/amo/stars/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
