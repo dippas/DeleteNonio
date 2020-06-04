@@ -1,16 +1,12 @@
 # DeleteNonio
 
-Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
+Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
 
 ## Give some love to help keep the project alive
 
 [![bc](https://cdn.buymeacoffee.com/buttons/lato-black.png)](https://www.buymeacoffee.com/dippas)
 
-## ChangeLog
-
-(PT) Para vericar que tipo de alterações têm sido efetuadas clique [aqui](https://github.com/dippas/DeleteNonio/releases)
-
-(EN) You can check what kind of updates has been made by clicking [here](https://github.com/dippas/DeleteNonio/releases)
+## [ChangeLog](https://github.com/dippas/DeleteNonio/releases)
 
 ## Status
 
