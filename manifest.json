@@ -34,7 +34,7 @@
 		"matches": ["*://*/*"],
 		"js": [
 			"js/extension/browser-polyfill.js",
-			"js/extension/deletenonio.js"
+			"js/extension/deletenonio.min.js"
 		]
 	}]
 }
