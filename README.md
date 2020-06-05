@@ -1,3 +1,5 @@
+![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
+
 # DeleteNonio
 
 Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
