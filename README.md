@@ -95,7 +95,7 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
 - <https://vdigital.pt/>
-- <https://destak.pt/>
+- <http://destak.pt/>
 - <http://empregosonline.pt/>
 - <https://n-tv.pt/>
 
