@@ -38,8 +38,8 @@
 // @match        https://*.sicmulher.pt/*
 // @match        https://*.siccaras.pt/*
 // @match        https://*.vdigital.pt/*
-// @match        https://*.destak.pt/*
-// @match        https://*.empregosonline.pt/*
+// @match        http://*.destak.pt/*
+// @match        http://*.empregosonline.pt/*
 // @match        https://*.classificadoscm.pt/*
 // @match        https://*.n-tv.pt/*
 // @grant        none
