@@ -30,12 +30,13 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 
 ## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa?hl=pt-PT)
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)
+
 ## NEW - Edge chromium extension
 
 ## [![Edge](https://i.imgur.com/DhnhrKW.png)Edge Extension](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)
 
 ## Instalar Script de utilizador / User Script Installation
 
