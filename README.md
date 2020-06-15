@@ -28,13 +28,11 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
  [![Mozilla Add-on](https://img.shields.io/amo/stars/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
-## NEW - Extensão do chrome disponivel na webstore
-
 ## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa?hl=pt-PT)
 
-- (PT) Quem tiver extensão do chrome instalada manualmente, remova e instale pelo link da store para obter updates automáticos
+## NEW - Edge chromium extension
 
-- (EN) Who installed the extension manually, please remove it from chrome and install chrome store in order to have auto updates.
+## [![Edge](https://i.imgur.com/DhnhrKW.png)Edge Extension](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)
