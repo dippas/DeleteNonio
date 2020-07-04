@@ -1,6 +1,7 @@
-![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
 
 # DeleteNonio
+
+![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
 
 Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
 
@@ -28,15 +29,15 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
  [![Mozilla Add-on](https://img.shields.io/amo/stars/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
-## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa?hl=pt-PT)
+## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)
+[![version](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
+[![users](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
+[![stars](https://img.shields.io/chrome-web-store/stars/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
 ## NEW - Edge chromium extension
 
 ## [![Edge](https://i.imgur.com/DhnhrKW.png)Edge Extension](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
-
 
 ## Instalar Script de utilizador / User Script Installation
 
