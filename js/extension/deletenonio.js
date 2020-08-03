@@ -9,13 +9,14 @@ const deleteNonio = {
 	removeElement(element) {
 		if (document.querySelectorAll(element)[0]) {
 			clearInterval(this.hasElement)
-			this.el.html.style = 'overflow: auto !important';
-			this.el.body.style = 'overflow: auto !important';
 			document.querySelectorAll(element)[0].outerHTML = '';
 		}
 	},
 
 	events() {
+
+		clearInterval(this.setOverflow)
+
 		this.hasElement = setInterval(() => {
 			this.removeElement('#imp-content-gate-root')
 			this.removeElement('#nonio-basiclogin')
@@ -24,8 +25,14 @@ const deleteNonio = {
 			this.removeElement('.warning-nonio-overlay')
 			this.removeElement('.tp-modal')
 			this.removeElement('.tp-backdrop')
-			this.removeElement('.tp-iframe-wrapper')
+			this.removeElement('.tp-iframe-wrapper'),
+			this.removeElement('#wrapperContentGatingNonio')
 		}, 100);
+
+		this.setOverflow = setInterval(() => {
+			this.el.html.style = 'overflow: auto !important';
+			this.el.body.style = 'overflow: auto !important';
+		}, 100)
 	},
 
 	cofinaGroupVideosFix() {
@@ -49,7 +56,7 @@ const deleteNonio = {
 		this.events();
 		this.globalmediaGroupFix();
 		this.cofinaGroupVideosFix();
-	}  
+	}
 }
 
 function handleResponse(message) {

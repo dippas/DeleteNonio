@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
-// @version      1.4.7
+// @version      1.4.8
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -56,13 +56,14 @@ const deleteNonio = {
 	removeElement(element) {
 		if (document.querySelectorAll(element)[0]) {
 			clearInterval(this.hasElement)
-			this.el.html.style = 'overflow: auto !important';
-			this.el.body.style = 'overflow: auto !important';
 			document.querySelectorAll(element)[0].outerHTML = '';
 		}
 	},
 
 	events() {
+
+		clearInterval(this.setOverflow)
+
 		this.hasElement = setInterval(() => {
 			this.removeElement('#imp-content-gate-root')
 			this.removeElement('#nonio-basiclogin')
@@ -71,8 +72,14 @@ const deleteNonio = {
 			this.removeElement('.warning-nonio-overlay')
 			this.removeElement('.tp-modal')
 			this.removeElement('.tp-backdrop')
-			this.removeElement('.tp-iframe-wrapper')
+			this.removeElement('.tp-iframe-wrapper'),
+			this.removeElement('#wrapperContentGatingNonio')
 		}, 100);
+
+		this.setOverflow = setInterval(() => {
+			this.el.html.style = 'overflow: auto !important';
+			this.el.body.style = 'overflow: auto !important';
+		}, 100)
 	},
 
 	cofinaGroupVideosFix() {
