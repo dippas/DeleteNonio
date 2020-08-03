@@ -26,7 +26,8 @@ const deleteNonio = {
 			this.removeElement('.tp-modal')
 			this.removeElement('.tp-backdrop')
 			this.removeElement('.tp-iframe-wrapper'),
-			this.removeElement('#wrapperContentGatingNonio')
+			this.removeElement('#wrapperContentGatingNonio'),
+			this.removeElement('.brand__expresso')
 		}, 100);
 
 		this.setOverflow = setInterval(() => {
