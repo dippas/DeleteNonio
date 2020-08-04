@@ -31,6 +31,7 @@ const deleteNonio = {
 		}, 100);
 
 		this.setOverflow = setInterval(() => {
+			if (window.location.href.indexOf('youtube.com') > -1) return
 			this.el.html.style = 'overflow: auto !important';
 			this.el.body.style = 'overflow: auto !important';
 		}, 100)
@@ -60,8 +61,7 @@ const deleteNonio = {
 	}
 }
 
-function handleResponse(message) {
-	console.log(message);
+function handleResponse() {
 	deleteNonio.init();
 }
 

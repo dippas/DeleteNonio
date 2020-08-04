@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
-// @version      1.4.9
+// @version      1.5.0
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -78,6 +78,7 @@ const deleteNonio = {
 		}, 100);
 
 		this.setOverflow = setInterval(() => {
+			if (window.location.href.indexOf('youtube.com') > -1) return
 			this.el.html.style = 'overflow: auto !important';
 			this.el.body.style = 'overflow: auto !important';
 		}, 100)
