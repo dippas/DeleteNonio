@@ -3,19 +3,20 @@ const deleteNonio = {
 		html: document.documentElement,
 		body: document.body,
 		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt'],
-		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt']
+		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt'],
+		renascencaGroupUrls: ['rr.sapo.pt', 'rfm.sapo.pt', 'megahits.sapo.pt', 'radiosim.sapo.pt']
 	},
 
 	removeElement(element) {
 		if (document.querySelectorAll(element)[0]) {
 			clearInterval(this.hasElement)
+			this.el.html.style = 'overflow: auto !important';
+			this.el.body.style = 'overflow: auto !important';
 			document.querySelectorAll(element)[0].outerHTML = '';
 		}
 	},
 
 	events() {
-
-		clearInterval(this.setOverflow)
 
 		this.hasElement = setInterval(() => {
 			this.removeElement('#imp-content-gate-root')
@@ -25,16 +26,10 @@ const deleteNonio = {
 			this.removeElement('.warning-nonio-overlay')
 			this.removeElement('.tp-modal')
 			this.removeElement('.tp-backdrop')
-			this.removeElement('.tp-iframe-wrapper'),
-			this.removeElement('#wrapperContentGatingNonio'),
+			this.removeElement('.tp-iframe-wrapper')
+			this.removeElement('#wrapperContentGatingNonio')
 			this.removeElement('.brand__expresso')
 		}, 100);
-
-		this.setOverflow = setInterval(() => {
-			if (window.location.href.indexOf('youtube.com') > -1) return
-			this.el.html.style = 'overflow: auto !important';
-			this.el.body.style = 'overflow: auto !important';
-		}, 100)
 	},
 
 	cofinaGroupVideosFix() {
@@ -54,10 +49,23 @@ const deleteNonio = {
 		})
 	},
 
+	renascencaGroupFix() {
+		clearInterval(this.setOverflow)
+		this.el.renascencaGroupUrls.forEach(url => {
+			if (window.location.href.indexOf(url) > -1) {
+				this.setOverflow = setInterval(() => {
+					this.el.html.style = 'overflow: auto !important';
+					this.el.body.style = 'overflow: auto !important';
+				}, 100)
+			}
+		})
+	},
+
 	init() {
 		this.events();
-		this.globalmediaGroupFix();
 		this.cofinaGroupVideosFix();
+		this.globalmediaGroupFix();
+		this.renascencaGroupFix();
 	}
 }
 
