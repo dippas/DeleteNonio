@@ -30,7 +30,7 @@ const deleteNonio = {
 			this.removeElement('#wrapperContentGatingNonio')
 			this.removeElement('#contentGateLoginDiv')
 			this.removeElement('.brand__expresso')
-		}, 100);
+		}, 1000);
 	},
 
 	cofinaGroupVideosFix() {
@@ -57,7 +57,7 @@ const deleteNonio = {
 				this.setOverflow = setInterval(() => {
 					this.el.html.style = 'overflow: auto !important';
 					this.el.body.style = 'overflow: auto !important';
-				}, 100)
+				}, 1000)
 			}
 		})
 	},
