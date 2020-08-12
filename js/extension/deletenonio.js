@@ -28,6 +28,7 @@ const deleteNonio = {
 			this.removeElement('.tp-backdrop')
 			this.removeElement('.tp-iframe-wrapper')
 			this.removeElement('#wrapperContentGatingNonio')
+			this.removeElement('#contentGateLoginDiv')
 			this.removeElement('.brand__expresso')
 		}, 100);
 	},
