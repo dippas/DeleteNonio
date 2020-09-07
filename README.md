@@ -33,7 +33,6 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 
 [![version](https://img.shields.io/chrome-web-store/v/pcoliafiikpoggkobpfhcbkmmjlkonfa)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 [![users](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
-[![stars](https://img.shields.io/chrome-web-store/stars/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
 ## NEW - Edge chromium extension
 
