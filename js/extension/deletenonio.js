@@ -2,7 +2,7 @@ const deleteNonio = {
 	el: {
 		html: document.documentElement,
 		body: document.body,
-		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt'],
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt', 'evasoes.pt'],
 		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt'],
 		renascencaGroupUrls: ['rr.sapo.pt', 'rfm.sapo.pt', 'megahits.sapo.pt', 'radiosim.sapo.pt']
 	},

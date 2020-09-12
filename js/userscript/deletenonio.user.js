@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
-// @version      1.6.3
+// @version      1.6.4
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -42,6 +42,7 @@
 // @match        http://*.empregosonline.pt/*
 // @match        https://*.classificadoscm.pt/*
 // @match        https://*.n-tv.pt/*
+// @match        https://*.evasoes.pt/*
 // @grant        none
 // ==/UserScript==
 
@@ -49,7 +50,7 @@ const deleteNonio = {
 	el: {
 		html: document.documentElement,
 		body: document.body,
-		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt'],
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt', 'evasoes.pt'],
 		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt'],
 		renascencaGroupUrls: ['rr.sapo.pt', 'rfm.sapo.pt', 'megahits.sapo.pt', 'radiosim.sapo.pt']
 	},
