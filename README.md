@@ -95,6 +95,7 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 - <http://destak.pt/>
 - <http://empregosonline.pt/>
 - <https://n-tv.pt/>
+- <https://evasoes.pt/>
 
 ## Notas / Notes
 
