@@ -47,6 +47,7 @@
 // @match        https://*.womenshealth.pt/*
 // @match        https://*.noticiasmagazine.pt/*
 // @match        https://*.voltaaomundo.pt/*
+// @match        https://*.delas.pt/*
 // @grant        none
 // ==/UserScript==
 
