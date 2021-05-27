@@ -4,7 +4,7 @@
 // @namespace    https://github.com/dippas/DeleteNonio/
 // @homepage     https://github.com/dippas/DeleteNonio/
 // @description  Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como script e Extensão para Firefox e Chrome.
-// @version      1.6.4
+// @version      1.6.5
 // @supportURL   https://github.com/dippas/DeleteNonio/issues
 // @downloadURL  https://raw.githubusercontent.com/dippas/DeleteNonio/master/js/userscript/deletenonio.user.js
 // @match        https://*.aquelamaquina.pt/*
@@ -43,6 +43,10 @@
 // @match        https://*.classificadoscm.pt/*
 // @match        https://*.n-tv.pt/*
 // @match        https://*.evasoes.pt/*
+// @match        https://*.menshealth.pt/*
+// @match        https://*.womenshealth.pt/*
+// @match        https://*.noticiasmagazine.pt/*
+// @match        https://*.voltaaomundo.pt/*
 // @grant        none
 // ==/UserScript==
 
@@ -50,7 +54,7 @@ const deleteNonio = {
 	el: {
 		html: document.documentElement,
 		body: document.body,
-		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt', 'evasoes.pt'],
+		globalmediaGroupUrls: ['dinheirovivo.pt', 'tsf.pt', 'vdigital.pt', 'ojogo.pt', 'jn.pt', 'dn.pt', 'n-tv.pt', 'evasoes.pt', 'menshealth.pt', 'womenshealth.pt', 'noticiasmagazine.pt', 'voltaaomundo.pt'],
 		cofinaGroupURLs: ['record.pt', 'cmjornal.pt', 'cm-tv.pt', 'jornaldenegocios.pt', 'destak.pt', 'flash.pt', 'vidas.pt', 'maxima.pt', 'sabado.pt', 'empregosonline.pt', 'classficadoscm.pt', 'aquelamaquina.pt'],
 		renascencaGroupUrls: ['rr.sapo.pt', 'rfm.sapo.pt', 'megahits.sapo.pt', 'radiosim.sapo.pt']
 	},
@@ -67,17 +71,17 @@ const deleteNonio = {
 	events() {
 
 		this.hasElement = setInterval(() => {
-			this.removeElement('#imp-content-gate-root')
-			this.removeElement('#nonio-basiclogin')
-			this.removeElement('[id^="layer_gatting"]')
-			this.removeElement('.nonioBox')
-			this.removeElement('.warning-nonio-overlay')
-			this.removeElement('.tp-modal')
-			this.removeElement('.tp-backdrop')
-			this.removeElement('.tp-iframe-wrapper')
-			this.removeElement('#wrapperContentGatingNonio')
-			this.removeElement('#contentGateLoginDiv')
-			this.removeElement('.brand__expresso')
+			this.removeElement('#imp-content-gate-root');
+			this.removeElement('#nonio-basiclogin');
+			this.removeElement('[id^="layer_gatting"]');
+			this.removeElement('.nonioBox');
+			this.removeElement('.warning-nonio-overlay');
+			this.removeElement('.tp-modal');
+			this.removeElement('.tp-backdrop');
+			this.removeElement('.tp-iframe-wrapper');
+			this.removeElement('#wrapperContentGatingNonio');
+			this.removeElement('#contentGateLoginDiv');
+			this.removeElement('.brand__expresso');
 		}, 1000);
 	},
 
@@ -93,7 +97,7 @@ const deleteNonio = {
 		this.el.globalmediaGroupUrls.forEach(url => {
 			if (window.location.href.indexOf(url) > -1) {
 				document.cookie.split(";").forEach(value => document.cookie = value.replace(/^ +/, "").replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`));
-				window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'))
+				window.addEventListener('load', () => this.removeElement('iframe[src^="/content"]'));
 			}
 		})
 	},
@@ -105,7 +109,7 @@ const deleteNonio = {
 				this.setOverflow = setInterval(() => {
 					this.el.html.style = 'overflow: auto !important';
 					this.el.body.style = 'overflow: auto !important';
-				}, 1000)
+				}, 1000);
 			}
 		})
 	},
