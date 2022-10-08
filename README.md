@@ -1,4 +1,3 @@
-
 # DeleteNonio
 
 ![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
@@ -27,7 +26,6 @@ Remover o NONIO. Disponível como extensão para Chrome, Firefox e Edge.
 
 [![version](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
-
 
 ## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 

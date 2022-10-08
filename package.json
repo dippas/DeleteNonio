@@ -3,17 +3,17 @@
   "version": "2.0.0",
   "description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites.",
   "author": {
-		"name": "dippas",
-		"email": "dippas.dev@gmail.com",
-		"url": "https://github.com/dippas"
-	},
+    "name": "dippas",
+    "email": "dippas.dev@gmail.com",
+    "url": "https://github.com/dippas"
+  },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/dippas/DeleteNonio"
-	},
+    "type": "git",
+    "url": "https://github.com/dippas/DeleteNonio"
+  },
   "bugs": "https://github.com/dippas/DeleteNonio/issues",
-	"funding": "https://www.buymeacoffee.com/dippas",
-	"license": "MIT",
+  "funding": "https://www.buymeacoffee.com/dippas",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
