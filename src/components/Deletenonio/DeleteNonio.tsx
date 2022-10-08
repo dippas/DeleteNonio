@@ -1,6 +1,6 @@
 import { enableScrollbar } from '../../helpers/enableScrollBar';
 import { removeCookies } from '../../helpers/removeCookies';
-import { removeElement } from '../../helpers/removeEement';
+import { removeElement } from '../../helpers/removeElement';
 import { cofinaGroupURLs, globalmediaGroupUrls, renascencaGroupUrls } from '../../helpers/sites';
 
 const DeleteNonio = () => {
