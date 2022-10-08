@@ -1,40 +1,26 @@
 {
-
-	"manifest_version": 2,
-	"name": "DeleteNonio",
-	"version": "1.6.5",
-	"author": "dippas",
-	"description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.",
-
-	"icons": {
-		"32": "icons/icon-32.png",
-		"48": "icons/icon-48.png",
-		"64": "icons/icon-64.png",
-		"128": "icons/icon-128.png"
-	},
-
-	"background": {
-		"scripts": [
-			"js/extension/browser-polyfill.js",
-			"js/extension/background.js"
-		]
-	},
-
-	"permissions": [
-		"activeTab"
-	],	
-
-	"browser_action": {
-		"default_icon": "icons/icon-32.png",
-		"default_title": "DeleteNonio",
-		"default_popup": "popup/popup.html"
-	},
-
-	"content_scripts": [{
-		"matches": ["*://*/*"],
-		"js": [
-			"js/extension/browser-polyfill.js",
-			"js/extension/deletenonio.min.js"
-		]
-	}]
+  "manifest_version": 3,
+  "name": "DeleteNonio",
+  "version": "2.0.0",
+  "author": "dippas",
+  "homepage_url": "https://github.com/dippas/DeleteNonio",
+  "description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "DeleteNonio",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["src/content.tsx"]
+    }
+  ]
 }
