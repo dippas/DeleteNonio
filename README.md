@@ -3,7 +3,7 @@
 
 ![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
 
-Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível como extensão para Firefox e Chrome.
+Remover o NONIO. Disponível como extensão para Chrome, Firefox e Edge.
 
 ## Give some love to help keep the project alive
 
@@ -27,7 +27,7 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 
 [![version](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 [![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
- [![Mozilla Add-on](https://img.shields.io/amo/stars/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+
 
 ## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
@@ -36,37 +36,14 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 
 ## [![Edge](https://i.imgur.com/DhnhrKW.png)Edge Extension](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
 
-## Instalar Script de utilizador / User Script Installation
+## What does it do
 
-(PT) Em caso de não ter instalado nenhuma extensão de userscript, aqui fica uma lista para fazer download
+It removes the Nonio popup and set it back the scrollbar in the site, so users can browse the site in question without the Nonio popup blocking the browsing
 
-(EN) If you don't have any userscript extension tool installed yet, here is a list where you can download and install it to your favourite browser
-
-- [ViolentMonkey](https://violentmonkey.github.io/get-it/)
-- [TamperMonkey](https://www.tampermonkey.net/)
-- [GreaseMonkey - only Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-
-(PT) Carregar num dos links abaixo para instalação via extensão de userscript
-
-(EN) Click one of the following links to install it via your favourite userscript tool:
-
-- [Minified](https://github.com/dippas/DeleteNonio/raw/master/js/userscript/deletenonio.min.user.js)
-- [Original](https://github.com/dippas/DeleteNonio/raw/master/js/userscript/deletenonio.user.js)
-
-## O que faz / What does it do
-
-(PT) Remove o Nonio Popup e repoe a barra de scroll lateral, para que os utilizadores possam visualizar o site em questão sem o Nonio popup a bloquear o site
-
-(EN) It removes the Nonio popup and set it back the scrollbar in the site, so users can browse the site in question without the Nonio popup blocking the browsing
-
-## Sites onde funciona / Sites where it works
+## Sites/Domains where it works
 
 - <https://aquelamaquina.pt/>
-- <https://xl.pt/>
-- <https://publico.pt/>
 - <https://sapo.pt/>
-- <https://blitz.pt/>
-- <https://visao.pt/>
 - <https://tribunaexpresso.pt/>
 - <https://expresso.pt/>
 - <https://expressoemprego.pt/>
@@ -91,26 +68,25 @@ Remover o NONIO. Sempre actualizado para remover o nonio dos sites. Disponível 
 - <https://sicmulher.pt/>
 - <https://sicradical.pt/>
 - <https://famashow.pt/>
-- <https://vdigital.pt/>
-- <http://destak.pt/>
 - <http://empregosonline.pt/>
+- <https://classificadoscm.pt/>
+- <https://voltaaomundo.pt/>
+- <https://menshealth.pt/>
+- <https://womenshealth.pt/>
 - <https://n-tv.pt/>
 - <https://evasoes.pt/>
+- <https://delas.pt>
 
-## Notas / Notes
+## Notes
 
-(PT) Para melhor desempenho do plugin/script, ter o mesmo sempre atualizado, ver a versão actualizada do mesmo em cima
+For better performance please keep it updated, see the updated version above
 
-(EN) For better plugin/script performance please keep it updated, see the updated version above
+## Contributing
 
-## Contribuição / Contributing
-
-(PT) Pull requests são bem vindos. Para alterações de maior, por favor abir um issue para discutir as alterações.
-
-(EN) Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 [![Pull requests](https://img.shields.io/github/issues-pr/dippas/deletenonio)](https://github.com/dippas/DeleteNonio/pulls)
 
-## Licença / License
+## License
 
 [![MIT](https://img.shields.io/github/license/dippas/deletenonio)](https://choosealicense.com/licenses/mit/)
