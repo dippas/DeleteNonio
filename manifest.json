@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "DeleteNonio",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "dippas",
   "homepage_url": "https://github.com/dippas/DeleteNonio",
   "description": "Remover NONIO. Sempre actualizado para remover o nonio dos sites.",
