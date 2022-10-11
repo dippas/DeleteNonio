@@ -11,7 +11,6 @@
     "64": "icons/icon-64.png",
     "128": "icons/icon-128.png"
   },
-  "permissions": ["activeTab"],
   "action": {
     "default_icon": "icons/icon-32.png",
     "default_title": "DeleteNonio",
