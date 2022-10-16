@@ -4,7 +4,7 @@ const Popup = () => {
   return (
     <>
       <h1 className={classes.title}>
-        DeleteNonio <span className={classes.version}>v2.0.0</span>
+        DeleteNonio <span className={classes.version}>v2.0.2</span>
       </h1>
       <h2 className={classes.subTitle}>Remover Nonio popup dos sites</h2>
       <a className={classes.noPadding} target="_blank" href="https://www.buymeacoffee.com/dippas">
