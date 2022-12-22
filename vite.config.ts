@@ -4,7 +4,7 @@ import { crx } from '@crxjs/vite-plugin';
 import manifest from './manifest.json';
 
 export default defineConfig({
-  plugins: [react({ jsxRuntime: 'classic' }), crx({ manifest })],
+  plugins: [react(), crx({ manifest })],
   css: {
     modules: {
       localsConvention: 'camelCase'
