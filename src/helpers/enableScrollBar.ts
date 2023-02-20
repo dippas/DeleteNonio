@@ -1,4 +1,4 @@
 export const enableScrollbar = () => {
-  document.documentElement.setAttribute('style', 'overflow:auto !important');
-  document.body.setAttribute('style', 'overflow:auto !important');
+  document.documentElement.style.setProperty('overflow', 'auto', 'important');
+  document.body.style.setProperty('overflow', 'auto', 'important');
 };

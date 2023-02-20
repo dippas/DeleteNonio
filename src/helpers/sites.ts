@@ -1,4 +1,4 @@
-export const globalmediaGroupUrls = [
+const globalmediaGroupUrls = [
   'dinheirovivo.pt',
   'tsf.pt',
   'ojogo.pt',
@@ -12,7 +12,7 @@ export const globalmediaGroupUrls = [
   'voltaaomundo.pt',
   'delas.pt'
 ];
-export const cofinaGroupURLs = [
+const cofinaGroupURLs = [
   'record.pt',
   'cmjornal.pt',
   'cm-tv.pt',
@@ -25,9 +25,8 @@ export const cofinaGroupURLs = [
   'classficadoscm.pt',
   'aquelamaquina.pt'
 ];
-export const renascencaGroupUrls = [
-  'rr.sapo.pt',
-  'rfm.sapo.pt',
-  'megahits.sapo.pt',
-  'radiosim.sapo.pt'
-];
+const renascencaGroupUrls = ['rr.sapo.pt', 'rfm.sapo.pt', 'megahits.sapo.pt', 'radiosim.sapo.pt'];
+
+const nonioSites = [...cofinaGroupURLs, ...globalmediaGroupUrls, ...renascencaGroupUrls];
+
+export const isNonioSite = nonioSites.some(site => location.href.includes(site));

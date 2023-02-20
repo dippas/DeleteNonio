@@ -1,4 +1,4 @@
-import { removeElement } from './removeElement';
+import { removeElementFromDOM } from './removeElementFromDOM';
 
 const elements = [
   '#imp-content-gate-root',
@@ -14,4 +14,4 @@ const elements = [
   '.brand_expresso'
 ];
 
-export const elementsToRemove = () => elements.map((element: string) => removeElement(element));
+export const elementsToRemove = () => elements.forEach(element => removeElementFromDOM(element));

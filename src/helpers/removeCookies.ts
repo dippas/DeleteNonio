@@ -1,10 +1,9 @@
-export const removeCookies = () => {
+export const removeCookies = () =>
   document.cookie
-    .split(';')
-    .forEach(
-      value =>
-        (document.cookie = value
+    ?.split(';')
+    ?.forEach(
+      cookie =>
+        (document.cookie = cookie
           .replace(/^ +/, '')
           .replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`))
     );
-};
