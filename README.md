@@ -25,8 +25,8 @@ Remover o NONIO. Disponível como extensão para Chrome, Firefox e Edge.
 
 ## [![Firefox](https://i.imgur.com/k8dziXb.png)Firefox Extension](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
-[![version](https://img.shields.io/amo/v/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
-[![users](https://img.shields.io/amo/users/deletenonio?color=orange)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+[![version](https://img.shields.io/amo/v/deletenonio)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
+[![users](https://img.shields.io/amo/users/deletenonio)](https://addons.mozilla.org/pt-PT/firefox/addon/deletenonio/)
 
 ## [![Chrome](https://i.imgur.com/RctyFpe.png)Chrome Extension](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
@@ -34,6 +34,9 @@ Remover o NONIO. Disponível como extensão para Chrome, Firefox e Edge.
 [![users](https://img.shields.io/chrome-web-store/users/pcoliafiikpoggkobpfhcbkmmjlkonfa?color=blue)](https://chrome.google.com/webstore/detail/deletenonio/pcoliafiikpoggkobpfhcbkmmjlkonfa)
 
 ## [![Edge](https://i.imgur.com/DhnhrKW.png)Edge Extension](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
+
+[![version](https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkhcljonckehkkdjcelidghjefjfdpknn)](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
+[![users](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkhcljonckehkkdjcelidghjefjfdpknn)](https://microsoftedge.microsoft.com/addons/detail/khcljonckehkkdjcelidghjefjfdpknn)
 
 ## What does it do
 
