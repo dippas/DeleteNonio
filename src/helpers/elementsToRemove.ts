@@ -1,5 +1,3 @@
-import { removeElementFromDOM } from './removeElementFromDOM';
-
 const elements = [
   '#imp-content-gate-root',
   '#nonio-basiclogin',
@@ -14,4 +12,10 @@ const elements = [
   '.brand_expresso'
 ];
 
-export const elementsToRemove = () => elements.forEach(element => removeElementFromDOM(element));
+export const elementsToRemove = () => {
+  const observer = new MutationObserver(() =>
+    elements.forEach(element => document.querySelector(element)?.remove())
+  );
+
+  observer.observe(document, { childList: true, subtree: true });
+};
