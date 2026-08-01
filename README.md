@@ -1,5 +1,9 @@
 # DeleteNonio
 
+> [!IMPORTANT]  
+No longer maintained because the sites gave up the idea
+---
+
 ![DeleteNonio](https://repository-images.githubusercontent.com/191368409/f7a14500-999c-11e9-8417-d5a75861d3d5)
 
 Remover o NONIO. Disponível como extensão para Chrome, Firefox e Edge.
